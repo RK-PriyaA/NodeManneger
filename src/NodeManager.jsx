@@ -62,7 +62,7 @@ const NodeManager = () =>{
         <div className="main">
             <div className="center">
               <br />
-              <h1> Node Manager</h1>
+              <h1>Task Taker</h1>
               <br />
               <input type="text" placeholder="Add an item" value={inputData} onChange={
                 (e)=> setInputData(e.target.value)}/>
